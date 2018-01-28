@@ -1,0 +1,9 @@
+<div class="row between-md">
+  {% for item in site.data.contact.links %}
+  <div class="col-md-0">
+    <div class="box" style="text-align:center">
+      <a href="{{item.url}}"><span class="socicon-{{item.icon}}"></span><br>{{item.title}}</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>

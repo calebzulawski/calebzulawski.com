@@ -1,0 +1,21 @@
+links:
+
+- title: LinkedIn
+  url: http://www.linkedin.com/in/calebzulawski
+  icon: linkedin
+
+- title: GitHub
+  url: http://www.github.com/calebzulawski
+  icon: github
+
+- title: Spotify
+  url: http://open.spotify.com/user/calebzulawski
+  icon: spotify
+
+- title: Instagram
+  url: http://instagram.com/calebzulawski
+  icon: instagram
+
+- title: Flickr
+  url: http://flickr.com/photos/czulawski
+  icon: flickr
