@@ -15,6 +15,10 @@ body {
   padding: 1em;
 }
 
+.current-page {
+  color: black;
+}
+
 a {
   text-decoration: none;
   color: #777;
