@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Caleb Zulawski - Home</title>
+  <title>Caleb Zulawski - {{ page.title }}</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
 </head>
@@ -14,11 +14,7 @@
   <div class="row">
     <div class="col-md-4">
       <div class="box content">
-        <p>Hi, I'm Caleb.</p>
-        <p>I'm an electrical engineer working at <a href="http://lgsinnovations.com">LGS Innovations</a> in digital signal processing
-          and software development. I graduated from the <a href="http://cooper.edu">Cooper Union</a> with a B.E. and M.E.
-          in electrical engineering.
-        </p>
+        {{ content }}
       </div>
     </div>
     <div class="col-md-offset-3 col-md-2 first-md">
