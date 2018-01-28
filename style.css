@@ -10,9 +10,13 @@ body {
   text-align: center;
 }
 
-#profile {
-  vertical-align: top;
-  padding-left: 2em;
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+a:hover {
+  color: #ccc;
 }
 
 hr {
