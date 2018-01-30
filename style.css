@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2vmin;
+  font-size: 100%;
 }
 
 .header {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 5.9vw;
+  font-size: 800%;
   text-align: center;
   text-transform: uppercase;
 }
@@ -20,6 +20,12 @@ body {
   color: black;
 }
 
+.text-overflow-center {
+  transform: translateX(-50%);
+  margin: 0 50%;
+  display: inline-block;
+}
+
 .crop {
   width: 100%;
   padding-top: 125%;
@@ -28,15 +34,15 @@ body {
 }
 
 .crop img {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    position: absolute;
-    top: -100%;
-    right: -100%;
-    bottom: -100%;
-    left: -100%;
-  }
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: -100%;
+  right: -100%;
+  bottom: -100%;
+  left: -100%;
+}
 
 a {
   text-decoration: none;
