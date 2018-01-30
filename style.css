@@ -2,14 +2,23 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 100%;
+  font-size: 150%;
 }
 
 .header {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 800%;
+  font-size: 200%;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 64em) {
+  body {
+    font-size: 100%;
+  }
+  .header {
+    font-size: 800%;
+  }
 }
 
 .content {
