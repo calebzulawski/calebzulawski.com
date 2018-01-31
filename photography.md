@@ -1,5 +1,6 @@
 ---
 title: Photography
+permalink: /photography/
 layout: default
 ---
 

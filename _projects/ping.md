@@ -1,6 +1,7 @@
 ---
 title: Ping
 description: An Arduino library for ultrasonic rangefinders
+permalink: /projects/ping/
 layout: default
 ---
 

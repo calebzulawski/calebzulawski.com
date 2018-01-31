@@ -1,6 +1,7 @@
 ---
 title: calebzulawski.com
 description: My personal website
+permalink: /projects/website/
 layout: default
 ---
 
