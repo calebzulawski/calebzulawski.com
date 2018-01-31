@@ -1,13 +1,13 @@
 links:
 
 - title: Home
-  url: index.html
+  url: /
 
 - title: Projects
-  url: projects.html
+  url: /projects/
 
 - title: Photography
-  url: photography.html
+  url: /photography/
 
 - title: Contact
-  url: contact.html
+  url: /contact/
