@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
 }
 
 .header {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 200%;
-  text-align: center;
-  text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 64em) {
-  .header {
-    font-size: 800%;
-  }
+    .header {
+        font-size: 800%;
+    }
 }
 
 .content {
-  padding: 1em;
+    padding: 1em;
 }
 
 .current-page {
-  color: black;
+    color: black;
 }
 
 .project-title {
@@ -31,49 +31,55 @@ body {
 }
 
 .text-overflow-center {
-  transform: translateX(-50%);
-  margin: 0 50%;
-  display: inline-block;
+    transform: translateX(-50%);
+    margin: 0 50%;
+    display: inline-block;
 }
 
 .crop {
-  width: 100%;
-  padding-top: 125%;
-  overflow: hidden;
-  position: relative;
+    width: 100%;
+    padding-top: 125%;
+    overflow: hidden;
+    position: relative;
 }
 
 .crop img {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  position: absolute;
-  top: -100%;
-  right: -100%;
-  bottom: -100%;
-  left: -100%;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top: -100%;
+    right: -100%;
+    bottom: -100%;
+    left: -100%;
 }
 
 a {
-  text-decoration: none;
-  color: #777;
+    text-decoration: none;
+    color: #777;
 }
 
 a:hover {
-  color: #ccc;
+    color: #ccc;
 }
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #e0e0e0;
-  margin: 1em 0;
-  padding: 0;
-  padding-bottom: 2em;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 1em 0;
+    padding: 0;
+    padding-bottom: 0;
+}
+
+@media screen and (min-width: 64em) {
+    hr {
+        padding-bottom: 2em;
+    }
 }
 
 .circle-img {
-  border-radius: 50%;
-  max-width: 100%;
+    border-radius: 50%;
+    max-width: 100%;
 }
