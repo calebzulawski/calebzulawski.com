@@ -26,6 +26,10 @@ body {
   color: black;
 }
 
+.project-title {
+    font-size: 150%;
+}
+
 .text-overflow-center {
   transform: translateX(-50%);
   margin: 0 50%;
