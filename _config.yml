@@ -1,1 +1,4 @@
 name: Caleb Zulawski
+collections:
+  projects:
+    output: true
