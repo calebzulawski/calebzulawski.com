@@ -26,7 +26,7 @@ String2String
 
 String2String is an extremely inexpensive method of digitizing writing on a blackboard. It was originally devised as a
 [HackCooper 2015](http://pioneer.cooper.edu/2015/02/21/hack-cooper-2015/) hackathon project with two of my classmates,
-where it was originally built for under $40.  We received several awards, tech press coverage, and even presented to the U.S. Secretary of State
+where it was built for under $40.  We received several awards, tech press coverage, and even presented to the U.S. Secretary of State
 and Chinese Vice Premier in Beijing.
 
 Technical details
