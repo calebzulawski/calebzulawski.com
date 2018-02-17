@@ -5,7 +5,7 @@ permalink: /projects/ping/
 layout: default
 ---
 
-{% include hc-sr04.html %}
+{% include image.html url="/images/hc-sr04.svg" alt="HC-SR04 ultrasonic sensor" offset=3 width=6 %}
 
 **Ping** is library for interfacing Arduino microcontrollers with HC-SR04-style ultrasonic rangefinders.
 
