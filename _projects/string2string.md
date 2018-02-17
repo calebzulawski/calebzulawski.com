@@ -1,7 +1,7 @@
 ---
 title: String2String
 description: A $40 digital blackboard
-permalink: /projects/string2string
+permalink: /projects/string2string/
 layout: default
 ---
 
