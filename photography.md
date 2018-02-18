@@ -6,6 +6,7 @@ additional_css: //cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/just
 additional_js:
   - //cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
   - //cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js
+  - //cdnjs.cloudflare.com/ajax/libs/axios/0.17.1/axios.min.js
   - /js/gallery.js
 ---
 
