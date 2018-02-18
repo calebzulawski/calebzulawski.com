@@ -7,7 +7,12 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
   {% if page.additional_css %}
     {% for stylesheet in page.additional_css %}
-      <link rel="stylesheet" href="//{{ stylesheet }}" type="text/css">
+      <link rel="stylesheet" href="{{ stylesheet }}" type="text/css">
+    {% endfor %}
+  {% endif %}
+  {% if page.additional_js %}
+    {% for script in page.additional_js %}
+      <script src="{{ script }}"></script>
     {% endfor %}
   {% endif %}
 </head>
