@@ -1,0 +1,30 @@
+baseURL = "https://calebzulawski.com/"
+languageCode = "en-us"
+title = "Caleb Zulawski"
+theme = "gothella"
+enableRobotsTXT = true
+
+[params]
+author = "Caleb Zulawski"
+description = "Software engineer, amateur photographer"
+subtitle = "Software engineer and amateur photographer"
+dateFormat = "January 2, 2006"
+keywords = "Caleb, Zulawski, Caleb Zulawski"
+
+[[params.social]]
+icon = "github"
+url = "https://github.com/calebzulawski"
+
+[[params.social]]
+icon = "instagram"
+url = "https://instagram.com/calebzulawski"
+
+[[params.social]]
+icon = "rust"
+url = "https://crates.io/users/calebzulawski"
+
+[menu]
+[[menu.main]]
+identifier = "about"
+name = "Portfolio"
+url = "https://portfolio.calebzulawski.com/"
