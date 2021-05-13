@@ -1,6 +1,0 @@
-name: Caleb Zulawski
-collections:
-  projects:
-    output: true
-plugins:
-  - jekyll-sitemap
