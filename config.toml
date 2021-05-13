@@ -28,3 +28,6 @@ url = "https://crates.io/users/calebzulawski"
 identifier = "about"
 name = "Portfolio"
 url = "https://portfolio.calebzulawski.com/"
+
+[markup.goldmark.renderer]
+unsafe= true

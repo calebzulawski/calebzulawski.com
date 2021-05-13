@@ -1,9 +1,9 @@
 ---
 title: String2String
 description: A $40 digital blackboard
-permalink: /projects/string2string/
-layout: default
 ---
+
+[<span class="fab fa-github"></span> View on GitHub](https://github.com/string2string/string2string)
 
 <style>
 .yt-container {
@@ -21,9 +21,6 @@ layout: default
 }
 </style>
 
-String2String
-===
-
 String2String is an extremely inexpensive method of digitizing writing on a blackboard. It was originally devised as a
 [HackCooper 2015](http://pioneer.cooper.edu/2015/02/21/hack-cooper-2015/) hackathon project with two of my classmates,
 where it was built for under $40.  We received several awards, tech press coverage, and even presented to the U.S. Secretary of State
@@ -40,8 +37,6 @@ Ultrasonic rangefinder sensors measure movements of weights at the ends of the s
 A Savitzky–Golay filter is applied to the sampled distances to minimize the effect of sensor noise.
 The chalk position is then calculated from the denoised distances and sent to a web server which accumulates the results for visualization.
 The visualization is accomplished using cardinal splines to interpolate between samples.
-
-More details, as well as all of the original code, is [available on GitHub](https://github.com/string2string/string2string).
 
 Video from HackCooper 2015
 ---
@@ -71,7 +66,7 @@ Most Technical Hack
 Press
 ---
 
-**Today Focus** - [An interview with my team in Chengdu, China](http://www.todayfocus.cn/p/4149.html)
+**Today Focus** - [An interview with my team in Chengdu, China](https://web.archive.org/web/20150827160528/http://www.todayfocus.cn/p/4149.html)
 
 **Popular Science** - [Build Your Own Interactive Chalkboard On The Cheap](https://www.popsci.com/build-your-own-interactive-whiteboard-under-40)
 
