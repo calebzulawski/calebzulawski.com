@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Caleb Zulawski</title>
+    <link>https://calebzulawski.com/</link>
+    <description>Recent content on Caleb Zulawski</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://calebzulawski.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>https://calebzulawski.com/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.com/about-me/</guid>
+      <description>Hello! I&amp;rsquo;m Caleb.
+I&amp;rsquo;m an electrical engineer at LGS Labs at CACI in Florham Park, NJ, where I work in digital signal processing and software development. I graduated from the Cooper Union with a B.E. and M.E. in electrical engineering.
+In my free time I work on various side projects. I&amp;rsquo;m also an amateur landscape and wildlife photographer.</description>
+    </item>
+    
+    <item>
+      <title>Fourier</title>
+      <link>https://calebzulawski.com/projects/fourier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.com/projects/fourier/</guid>
+      <description>View on crates.io
+ View on GitHub
+The Fourier transform is a fundamental tool for digital signal processing. Fourier is my attempt at creating a small, simple, yet state-of-the-art Fourier transform implementation. For some transform sizes it is competitive with the best implementations, but there is still room for improvement for powers of two. Fourier is written in Rust but also supports C and C++.</description>
+    </item>
+    
+    <item>
+      <title>Master&#39;s Thesis</title>
+      <link>https://calebzulawski.com/projects/thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.com/projects/thesis/</guid>
+      <description>Learning an End-to-End Physical Layer with Computational Graphs  Read my entire thesis here
+The goal of my thesis was to use machine learning, specifically neural networks, to learn a high-performing physical layer for a wireless communication system. I attempted to address a weakness in current modulation schemes; modulation and forward error correction are considered two separate problems. It is possible, however difficult, to design a modulation scheme that nears the Shannon limit, which is where neural networks come into play.</description>
+    </item>
+    
+    <item>
+      <title>Multiversion</title>
+      <link>https://calebzulawski.com/projects/multiversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.com/projects/multiversion/</guid>
+      <description>View on crates.io
+ View on GitHub
+CPUs provide a bunch of special instructions for improving performance of code. Unfortunately, not all CPUs (even those of the same family) have the same instructions, and using the wrong instructions can cause your program to crash. &amp;ldquo;Function multiversioning&amp;rdquo; is the technique of compiling the same function for different CPUs, and choosing the best one when you run the program. My multiversion project provides this capability for Rust programs.</description>
+    </item>
+    
+    <item>
+      <title>Ping</title>
+      <link>https://calebzulawski.com/projects/ping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.com/projects/ping/</guid>
+      <description>View on the Arduino Playground
+Ping is library for interfacing Arduino microcontrollers with HC-SR04-style ultrasonic rangefinders.
+This is one of the first projects I ever brought to completion. In early 2009, I read an article about a relatively new microcontroller, the Arduino. Something caught my eye about it&amp;mdash;I don&amp;rsquo;t remember what&amp;mdash;but after I got my hands on one I never used my BASIC Stamp 2 again.
+I had a few ultrasonic rangefinder sensors that I wanted to use, but no library existed at that point.</description>
+    </item>
+    
+    <item>
+      <title>Rust Portable SIMD Project Group</title>
+      <link>https://calebzulawski.com/projects/stdsimd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.com/projects/stdsimd/</guid>
+      <description>View on GitHub
+I&amp;rsquo;ve been a member of the Rust Portable SIMD Project Group since September 2020. Our charter is to create the std::simd module for the Rust programming language&amp;rsquo;s standard library, providing a safe, easy, and portable abstraction for using SIMD. We are currently in the process of stabilizing the project for inclusion in the nightly compiler.</description>
+    </item>
+    
+    <item>
+      <title>String2String</title>
+      <link>https://calebzulawski.com/projects/string2string/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.com/projects/string2string/</guid>
+      <description>View on GitHub
+ .yt-container { position: relative; width: 100%; height: 0; padding-bottom: 56.25%; } .yt-video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }  String2String is an extremely inexpensive method of digitizing writing on a blackboard. It was originally devised as a HackCooper 2015 hackathon project with two of my classmates, where it was built for under $40. We received several awards, tech press coverage, and even presented to the U.</description>
+    </item>
+    
+    <item>
+      <title>Symbol Slasher</title>
+      <link>https://calebzulawski.com/projects/symbol_slasher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calebzulawski.com/projects/symbol_slasher/</guid>
+      <description>View on GitHub
+Symbol Slasher is a fun experiment in obfuscation. Dynamically-linked libraries must expose a symbol table for other libraries and executables to interface with. These symbols represent things like functions and variables, and their names are based on the names of those functions and variables, which could potentially expose the functionality of your libraries. Symbol Slasher takes a collection of libraries and binaries and renames these symbols to hide their meaning.</description>
+    </item>
+    
+  </channel>
+</rss>

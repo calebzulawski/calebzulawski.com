@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Caleb Zulawski &middot Master&#39;s Thesis</title>
+    
+    <meta name="description" content="Learning an End-to-End Physical Layer with Computational Graphs">
+    
+    
+    <meta name="author" content="Caleb Zulawski">
+    
+    
+    <meta name="keywords" content="Caleb, Zulawski, Caleb Zulawski">
+    
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Merriweather:wght@900">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+    <div class="content-container">
+        <div class="sidebar">
+            <div class="nav">
+    <div class="nav-inner">
+        <div class="nav-link">
+            <a href="https://calebzulawski.com/">
+                <img id="logo" src="/logo.png" />
+            </a>
+            <h1><a href="https://calebzulawski.com/">Caleb Zulawski</a></h1>
+        </div>
+        <hr>
+        
+        <div class="nav-subtitle">Software engineer and amateur photographer</div>
+        
+        <ul>
+            
+            <li class="nav-link nav-link-underline"><a href="/about-me/" class="nav-link nav-link-underline">About Me</a></li>
+            
+            <li class="nav-link nav-link-underline"><a href="https://portfolio.calebzulawski.com/" class="nav-link nav-link-underline">Portfolio</a></li>
+            
+            <li class="nav-link nav-link-underline"><a href="/projects/" class="nav-link nav-link-underline">Projects</a></li>
+            
+        </ul>
+        <div class="social">
+            
+            <a href="https://github.com/calebzulawski"><span class="social fab fa-github"></span></a>
+            
+            <a href="https://instagram.com/calebzulawski"><span class="social fab fa-instagram"></span></a>
+            
+            <a href="https://crates.io/users/calebzulawski"><span class="social fab fa-rust"></span></a>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="header">
+    <div class="hamburger">
+        <a href="https://calebzulawski.com/">
+            <div class="hamburger-container">
+                <div class="hamburger-slice"></div>
+                <div class="hamburger-slice"></div>
+                <div class="hamburger-slice"></div>
+            </div>
+        </a>
+    </div>
+    <h1><a href="https://calebzulawski.com/">Caleb Zulawski</a></h1>
+</div>
+
+        <div class="content">
+            
+
+<div class="small-caps">
+    <a href="/projects/">Projects</a> / <a href="/projects/thesis/">Master&#39;s Thesis</a>
+</div>
+
+<h1 class="page-title">Master&#39;s Thesis</h1>
+
+<h2 id="learning-an-end-to-end-physical-layer-with-computational-graphs">Learning an End-to-End Physical Layer with Computational Graphs</h2>
+<p><a href="/files/thesis.pdf"><span class="fas fa-file-pdf"></span> Read my entire thesis here</a></p>
+<p>The goal of my thesis was to use machine learning, specifically neural networks, to learn a
+high-performing physical layer for a wireless communication system.  I attempted to address a weakness in
+current modulation schemes; modulation and forward error correction are considered two separate
+problems.  It is possible, however difficult, to design a modulation scheme that nears the Shannon
+limit, which is where neural networks come into play.</p>
+<p>The results were promising.  In the end I was able to train a modem that performed slightly
+outperformed convolutional codes.</p>
+<h3 id="design">Design</h3>
+<p>The modem was designed as an autoencoder.  The inputs to the autoencoder are the symbol bits, and
+the latent representation is the transmitted symbol.  Therefore, the encoder becomes the modulator
+and the decoder becomes the demodulator.</p>
+<p><img src="/images/autoencoder.svg" alt="An autoencoder"></p>
+<h3 id="results">Results</h3>
+<p>The autoencoder modem was able to compete with BPSK protected by one of the convolutional codes used
+by the LTE standard.  The results are shown below.</p>
+<blockquote>
+<p>Note: since convolutional codes do not block-encode, blocks were constructed by taking sets of adjacent bits.</p>
+</blockquote>
+<p><img src="/images/ber.svg" alt="Bit error rate"></p>
+<p><img src="/images/bler.svg" alt="Block error rate"></p>
+
+
+
+        </div>
+    </div>
+    
+    
+    
+</body>
+
+</html>

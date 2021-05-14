@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Caleb Zulawski &middot String2String</title>
+    
+    <meta name="description" content="A $40 digital blackboard">
+    
+    
+    <meta name="author" content="Caleb Zulawski">
+    
+    
+    <meta name="keywords" content="Caleb, Zulawski, Caleb Zulawski">
+    
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Merriweather:wght@900">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+    <div class="content-container">
+        <div class="sidebar">
+            <div class="nav">
+    <div class="nav-inner">
+        <div class="nav-link">
+            <a href="https://calebzulawski.com/">
+                <img id="logo" src="/logo.png" />
+            </a>
+            <h1><a href="https://calebzulawski.com/">Caleb Zulawski</a></h1>
+        </div>
+        <hr>
+        
+        <div class="nav-subtitle">Software engineer and amateur photographer</div>
+        
+        <ul>
+            
+            <li class="nav-link nav-link-underline"><a href="/about-me/" class="nav-link nav-link-underline">About Me</a></li>
+            
+            <li class="nav-link nav-link-underline"><a href="https://portfolio.calebzulawski.com/" class="nav-link nav-link-underline">Portfolio</a></li>
+            
+            <li class="nav-link nav-link-underline"><a href="/projects/" class="nav-link nav-link-underline">Projects</a></li>
+            
+        </ul>
+        <div class="social">
+            
+            <a href="https://github.com/calebzulawski"><span class="social fab fa-github"></span></a>
+            
+            <a href="https://instagram.com/calebzulawski"><span class="social fab fa-instagram"></span></a>
+            
+            <a href="https://crates.io/users/calebzulawski"><span class="social fab fa-rust"></span></a>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="header">
+    <div class="hamburger">
+        <a href="https://calebzulawski.com/">
+            <div class="hamburger-container">
+                <div class="hamburger-slice"></div>
+                <div class="hamburger-slice"></div>
+                <div class="hamburger-slice"></div>
+            </div>
+        </a>
+    </div>
+    <h1><a href="https://calebzulawski.com/">Caleb Zulawski</a></h1>
+</div>
+
+        <div class="content">
+            
+
+<div class="small-caps">
+    <a href="/projects/">Projects</a> / <a href="/projects/string2string/">String2String</a>
+</div>
+
+<h1 class="page-title">String2String</h1>
+
+<p><a href="https://github.com/string2string/string2string"><span class="fab fa-github"></span> View on GitHub</a></p>
+<style>
+.yt-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.yt-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+<p>String2String is an extremely inexpensive method of digitizing writing on a blackboard. It was originally devised as a
+<a href="http://pioneer.cooper.edu/2015/02/21/hack-cooper-2015/">HackCooper 2015</a> hackathon project with two of my classmates,
+where it was built for under $40.  We received several awards, tech press coverage, and even presented to the U.S. Secretary of State
+and Chinese Vice Premier in Beijing.</p>
+<h2 id="technical-details">Technical details</h2>
+<p>The secret of String2String&rsquo;s low cost is its simple hardware.  Handwriting digitization is accomplished by using string to map the position of
+the chalk and ultrasonic rangefinder sensors to measure distance.</p>
+<p>String is attached to the piece of chalk and allowed to move through two pulleys at the top corners of the blackboard.
+Ultrasonic rangefinder sensors measure movements of weights at the ends of the string, allowing the distance between each pulley and the chalk to be computed.
+A Savitzky–Golay filter is applied to the sampled distances to minimize the effect of sensor noise.
+The chalk position is then calculated from the denoised distances and sent to a web server which accumulates the results for visualization.
+The visualization is accomplished using cardinal splines to interpolate between samples.</p>
+<h2 id="video-from-hackcooper-2015">Video from HackCooper 2015</h2>
+<div class="yt-container">
+<iframe src="https://www.youtube.com/embed/y1aw0IiamFM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="yt-video"></iframe>
+</div>
+<h2 id="awards-and-recognition">Awards and recognition</h2>
+<p><strong><a href="http://www.china-embassy.org/eng/zgyw/t1371449.htm">U.S.-China High-Level Consultation on People-to-People Exchange</a></strong> <br>
+Beijing, China - June 2016 <br>
+Presented to U.S. Secretary of State John Kerry and Chinese Vice Premier Liu Yandong at the National Museum of China</p>
+<p><strong><a href="https://chinausyoungmakercompetition.hackster.io/">China-U.S. Young Maker Competition</a></strong> <br>
+Chengdu, China - August 2015 <br>
+Finalist</p>
+<p><strong><a href="http://www.dreamitcodeitwinit.org/">Dream It. Code It. Win It.</a></strong> <br>
+New York - April 2015 <br>
+Ingenuity Prize</p>
+<p><strong><a href="http://hackcooper.org/">HackCooper</a></strong> <br>
+New York - February 2015 <br>
+Most Technical Hack</p>
+<h2 id="press">Press</h2>
+<p><strong>Today Focus</strong> - <a href="https://web.archive.org/web/20150827160528/http://www.todayfocus.cn/p/4149.html">An interview with my team in Chengdu, China</a></p>
+<p><strong>Popular Science</strong> - <a href="https://www.popsci.com/build-your-own-interactive-whiteboard-under-40">Build Your Own Interactive Chalkboard On The Cheap</a></p>
+<p><strong>Hackaday</strong> - <a href="https://hackaday.com/2015/02/17/blackboard-digitization-for-under-40/">Blackboard Digitization for Under $40</a></p>
+<p><strong>Codeduino</strong> - <a href="https://codeduino.com/projects/games/string2string-digitalised-blackboard/">String2String – Digitalised Blackboard</a></p>
+<p><strong>Gadgetify</strong> - <a href="http://www.gadgetify.com/string2string/">String2String: Digitally Encoding Writing on a Chalkboard</a></p>
+
+
+
+        </div>
+    </div>
+    
+    
+    
+</body>
+
+</html>
